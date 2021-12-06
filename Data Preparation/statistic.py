@@ -1,3 +1,4 @@
+#Thống kê số lượng nhãn trong file train
 labels = ["__label__tot", "__label__trung_binh", "__label__kem", "__label__xuat_sac", "__label__rat_kem"]
 tot = 0
 tb = 0
