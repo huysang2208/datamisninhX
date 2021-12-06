@@ -18,6 +18,7 @@ with open('sentiment_analysis_train.v1.0.txt', 'r', encoding='UTF-8') as f2:
             kem = kem+1
         elif s_line.split()[0] == "__label__rat_kem":
             rk = rk+1
+#In ra số lượng và tỉ lệ nhãn trong file train            
 print("__label__xuat_sac: " + str(xs) + "\tpercentage: " + str(xs/total*100) +'\n')        
 print("__label__tot: " + str(tot) + "\tpercentage: " + str(tot/total*100) +'\n')
 print("__label__trung_binh: " + str(tb) + "\tpercentage: " + str(tb/total*100) +'\n')
