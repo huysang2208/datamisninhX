@@ -14,9 +14,9 @@ with open('sentiment_analysis_train.v1.0.txt', 'r', encoding='UTF-8') as f2:
         elif s_line.split()[0] == "__label__trung_binh":
             tb = tb+1
         elif s_line.split()[0] == "__label__kem":
-            xs = xs+1
-        elif s_line.split()[0] == "__label__xuat_sac":
             kem = kem+1
+        elif s_line.split()[0] == "__label__xuat_sac":
+            xs = xs+1
         elif s_line.split()[0] == "__label__rat_kem":
             rk = rk+1
 #In ra số lượng và tỉ lệ nhãn trong file train            
